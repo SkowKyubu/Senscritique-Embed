@@ -1,0 +1,97 @@
+/* Styles for the title section */
+#titre {
+    display: flex; /* Use flexbox */
+    align-items: left; /* Align items vertically */
+}
+
+/* Styles for the logo */
+#logo {
+    width: 50px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for h1 elements */
+h1 {
+    font-family: "Sora", sans-serif; /* Set font family */
+    margin-left: 10px; /* Set left margin */
+}
+
+/* Styles for anchor elements */
+a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Hover styles for anchor elements */
+a:hover {
+    color: inherit; /* Inherit text color */
+    /* text-decoration:none;  */ /* Uncomment to remove underline on hover */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+/* Styles for elements with class "count" */
+.count {
+    font-size: 20px; /* Set font size */
+    font-family: "Sora", sans-serif; /* Set font family */
+}
+
+/* Styles for elements with class "title" */
+.title {
+    font-size: 13px; /* Set font size */
+    margin-top: 5px; /* Add space between count and title */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* Set font family */
+}
+
+/* Styles for elements with class "collection" */
+.collection {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow wrapping items */
+}
+
+/* Styles for elements with class "collection_tag" */
+.collection_tag {
+    text-align: center; /* Center align the content */
+}
+
+/* Styles to draw a circle */
+.circle {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height (equal to width to create a circle) */
+    background-color: transparent; /* Set background color to transparent */
+    border: 4px solid #3498db; /* Set border width and color */
+    border-radius: 50%; /* Set border radius to 50% to create a circle */
+    margin: 0 10px; /* Set margin */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Define different border colors for different IDs */
+#total {
+    border-color: black; /* Set border color */
+}
+
+#movies {
+    border-color: #31ACE0; /* Set border color */
+}
+
+#albums {
+    border-color: #E171E2; /* Set border color */
+}
+
+#books {
+    border-color: #FFCC00; /* Set border color */
+}
+
+#comics {
+    border-color: #FF9200; /* Set border color */
+}
+
+#dramas {
+    border-color: #43E4F7; /* Set border color */
+}
+
+#videogames {
+    border-color: #FF4500; /* Set border color */
+}
