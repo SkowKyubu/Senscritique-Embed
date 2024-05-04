@@ -17,5 +17,5 @@ To utilize this widget effectively, follow these steps:
 <iframe height='190' width=100% frameborder='0' allowtransparency='false' scrolling='no' src='SC_widget/scraped_data.html'></iframe>
 ```
 
-### Disclamer 
+### Real-time Collection Display Maintenance 
 To ensure your collection display remains up-to-date, it's necessary to execute the Python script each time a user accesses your website.
